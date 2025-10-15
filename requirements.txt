@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+#tavily
+groq
+jinja2
+apscheduler
+python-dotenv
