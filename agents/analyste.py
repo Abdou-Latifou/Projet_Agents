@@ -1,13 +1,11 @@
-#from groq import Groq
 import os
 from dotenv import load_dotenv
-import json
 
 load_dotenv()
 
 class Analyste:
     def __init__(self):
-        self.client = Groq(api_key=os.getenv("GROQ_API_KEY"))  # Gardé pour futur usage
+        pass  # Plus besoin d'initialiser Groq
 
     def analyser_offres(self, offres):
         # Keywords élargis pour matcher les offres togolaises
