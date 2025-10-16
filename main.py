@@ -14,4 +14,6 @@ def main():
     scheduler.start()
 
 if __name__ == "__main__":
-    main()
+    coord = Coordinateur()
+    coord.executer()  # Ajouté pour tester
+    scheduler.start()
