@@ -1,7 +1,9 @@
-requests
-beautifulsoup4
-#tavily
-groq
-jinja2
-apscheduler
-python-dotenv
+
+
+tavily-python==0.4.0  # Vérifie la dernière version sur https://pypi.org/project/tavily-python/
+groq==0.9.0          # Vérifie la dernière version sur https://pypi.org/project/groq/
+apscheduler==3.10.4  # Pour le scheduler
+python-dotenv==1.0.1 # Pour charger .env
+jinja2==3.1.4        # Pour les templates HTML
+beautifulsoup4==4.12.3  # Pour le scraping
+requests==2.32.3     # Pour les requêtes HTTP
