@@ -9,7 +9,6 @@ class Redacteur:
         self.env = Environment(loader=FileSystemLoader("templates"))
 
     def generer_email(self, offres):
-        # Générer le contenu localement
         summaries = [
             {
                 "titre": offre["titre"],
